@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="paulomiranda.celularteste.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testar Conexão com Bluetooh"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edt_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_marginBottom="20dp"
+            android:onClick="onEnviar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receber"
+            android:layout_marginBottom="20dp"
+            android:onClick="onReceber"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conectar"
+            android:onClick="onConectar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconectar"
+            android:layout_marginBottom="20dp"
+            android:onClick="onDesconectar"/>
+
+        <TextView
+            android:id="@+id/txt_saida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saida: "
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+</LinearLayout>
